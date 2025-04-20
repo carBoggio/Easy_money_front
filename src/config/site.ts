@@ -2,7 +2,8 @@ export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
   name: "Prestamos de libros",
-  description: "Hace todos los prestamos de libros que quieras a traves de tu tarjeta Austral",
+  description:
+    "Hace todos los prestamos de libros que quieras a traves de tu tarjeta Austral",
   navItems: [
     {
       label: "Home",
@@ -15,7 +16,7 @@ export const siteConfig = {
     {
       label: "nuevo-prestamo",
       href: "/nuevo-prestamo",
-    }
+    },
   ],
   navMenuItems: [
     {
